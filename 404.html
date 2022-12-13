@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>404 card</title>
+
+        <style>
+
+            @font-face {
+                font-family: bebasneue;
+                src: url(BebasNeue.otf);
+            }    
+
+            body {
+                padding: 0;
+                margin: 0;
+                width: 100vw; 
+                height: 100vh;
+            }
+      
+            #canvas {
+                display: flex; 
+                align-items: center; 
+                width: 100%; 
+                height: 100%;   
+            }        
+
+            #wrapper {
+                display: flex;   
+                width: 100%;
+                height: 100%;   
+                background-color: bisque;
+            }
+
+            div.card {
+                display: flex; 
+                margin: 1em 0em 0em 2em; 
+                padding: 10% 5%; 
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                align-items: center;
+                text-align: center; 
+                justify-content: center; 
+                 }
+
+            h1 {
+                font-family: bebasneue;
+
+               /* font-family:'Courier New', Courier, monospace; */                
+                font-size: 120px; 
+                margin: 9px 130px 0px 50px;
+                text-align: center; 
+                border-style: solid;
+            }
+
+            p {
+                font-size: 33px; 
+                text-align: left;
+                padding : 0% 10% 0% 0%;
+            }
+
+
+            @media only screen and (max-width: 1000px) {
+
+            p {
+                font-size: 25px; 
+                text-align: center; 
+                }
+            div.card {
+                display:inline-block 
+            }
+
+            }
+
+            @media only screen and (max-width: 400px) {
+
+            p {
+            font-size: 20px; 
+            text-align: center; 
+            }
+            div.card {
+            display:inline-block 
+            }
+            h1 {
+            font-size: 80px; 
+            margin: 10px 33px 0px 0px ;
+            }
+          
+            }
+
+            
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <div id="canvas">
+
+
+        <div id="wrapper">
+        <div class="card">
+            <h1>ERROR 404</h1>
+    
+            <p><span>Check if your URL is correct or wait around until we fix it but it might take a while...</span>
+                <br> 
+                Soooooo yea I don't know why you're still here. Be nice to us, this kind of thing happens all the time and isn't anybody's fault. <br> 
+                And if it is somebody's fault, it definitely isn't my fault. I don't even know what a CSS is... sounds like an exotic disease. 
+            </p>
+
+           
+        </div>
+
+     
+    
+    </div>
+    
+    </div> 
+       
+   
+
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+</html>
